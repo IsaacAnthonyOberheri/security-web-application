@@ -7,6 +7,7 @@ function open_close(){
     menu_section[0].style.transition = 'all 0.3s linear';
     hideContent();
 }
+//looking
 
 
 
