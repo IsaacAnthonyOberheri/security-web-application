@@ -1,0 +1,542 @@
+
+
+<style>
+
+    /*Begin Testimonial section */
+.testimonialContainer{
+    width:100%;
+    height: auto;
+    background:rgb(242, 245, 231);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding:40px 5px 40px 5px;
+    margin-top:20px;
+
+    margin-bottom:40px;
+
+
+   
+
+}
+.proudly{
+    width:100%;
+    text-align: center;
+    font-size:40px;
+    font-weight: 600;
+}
+
+.test_bound_top{
+    width:100%;
+    height:300px;
+    /* background:rgb(10, 10, 212); */
+    display:flex;
+    align-items: center;
+}
+
+.test_button_left{
+    width:5%;
+    /* background: red; */
+    height: 100px;
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+}
+
+.test_button_right{
+    width:5%;
+    /* background: rgb(255, 255, 0); */
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor:pointer;
+}
+
+.test_button_left img{
+    width:40px;
+    height: 40px;
+}
+
+.test_button_right img{
+    width:40px;
+    height: 40px;
+}
+
+
+
+.test_items_casing{
+    
+    overflow-x: hidden;
+    width:90%;
+   
+    
+}
+
+.item_mover{
+    display:grid;
+    grid-template-columns: auto auto
+    auto auto auto auto auto auto
+    auto auto auto auto auto auto 
+    auto auto auto auto auto auto auto auto auto;
+    width:auto;
+    /* background:purple; */
+    
+    
+}
+
+
+
+.testimonial_items{
+    width:19.7vw;
+    height:250px;
+
+    max-width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background:brown; */
+   
+
+    
+}
+
+.testimonial_items img{
+    width:10vw;
+    height:auto;
+   
+    display:flex;
+    justify-content: flex-start;
+   
+    
+   
+}
+
+#test_item_1{
+   /* background-color: red; */
+}
+
+#test_item_2{
+   
+}
+
+
+#test_item_3{
+    
+}
+
+
+#test_item_4{
+    
+}
+
+
+
+
+
+
+
+#test_item_12{
+    /* background:rgb(194, 198, 196); */
+}
+
+#test_item_13{
+    /* background:rgb(255, 255, 255); */
+}
+
+
+#test_item_14{
+    /* background:rgb(0, 0, 0); */
+    
+}
+
+#test_item_15{
+    /* background:rgb(123, 109, 236); */
+    
+}
+
+.test_bound_bottom{
+    width:100%;
+    /* background:yellow; */
+    height:50px;
+    display:flex;
+    justify-content: center;
+    column-gap: 20px;
+
+}
+
+
+
+
+.slider_control_circles{
+    width:15px;
+    height:15px;
+    background-color: white;
+    border-radius: 1000px;
+   
+    
+}
+
+
+
+
+
+@media screen and (max-width:900px){
+    .testimonialContainer{
+        padding:40px 5px 40px 5px;
+
+    }
+
+    .test_bound_top{
+        width:100%;
+        height:250px;
+        margin-top:10px;
+
+    }
+
+    
+    .testimonial_items{
+        width:38vw;
+    }
+
+
+    .test_button_left{
+        width:7%;
+    }
+    
+    .test_button_right{
+        width:7%;
+    }
+    
+    
+    
+    .test_items_casing{
+        width:86%;  
+    }
+
+    .testimonial_items img{
+        width:25vw;
+        height:auto;
+       
+    }
+
+    .proudly{
+        font-size:25px;
+    }
+}
+
+
+
+@media screen and (max-width:450px){
+    .test_bound_top{
+        width:100%;
+        height:200px;
+        margin-top:10px;
+
+    }
+
+    .testimonial_items{
+        width:70vw;
+    }
+
+
+    .test_button_left{
+        width:9%;
+    }
+    
+    .test_button_right{
+        width:9%;
+    }
+    
+    
+    
+    .test_items_casing{
+        width:82%;  
+    }
+
+    .testimonial_items img{
+        width:35vw;
+        height:auto;
+       
+    }
+}
+
+
+
+/*End Testimonial section *//*End Testimonial section */
+
+
+
+
+
+
+
+
+</style>
+        <!--Beginning of testimonial Section--><!--Beginning of testimonial Section-->
+        <div class="testimonialContainer" onmouseenter = 'hideContent()'>
+
+            <div class="proudly">
+                Proudly Trusted By:
+            </div>
+
+
+            <div class="test_bound_top">
+
+
+                <div class="test_button_left" onClick="moveLeft()">
+                    <img src="slider_images/left-arrow.png">
+                </div>
+    
+    
+                <div class="test_items_casing">
+    
+    
+                    <div class="item_mover">
+
+
+
+                        <div class="testimonial_items" id="test_item_12">
+                            <img src="slider_images/12_PCIC-Logo-2-lines-1.png" />
+                        </div>
+    
+                        <div class="testimonial_items" id="test_item_13">
+                            <img src="slider_images/13_Berkerly.jpg" />
+                        </div>
+    
+                        <div class="testimonial_items" id="test_item_14">
+                            <img src="slider_images/14_us-air-force-2.webp" />
+                        </div>
+    
+                        <div class="testimonial_items" id="test_item_15">
+                            <img src="slider_images/15_WFU_Univ_V_RGB.png" />
+                        </div>
+
+                        <div class="testimonial_items" id="test_item_1">
+                            <img src="slider_images/1_ibm-2.webp" />
+                        </div>
+            
+                        <div class="testimonial_items" id="test_item_2">
+                            <img src="slider_images/2_BehaVR-logo-1.png" />
+                        </div>
+            
+                        <div class="testimonial_items" id="test_item_3">
+                            <img src="slider_images/3_twitch-2.webp" />
+                        </div>
+            
+                        <div class="testimonial_items" id="test_item_4">
+                            <img src="slider_images/4_nvoq.png" />
+                        </div>
+            
+                        <div class="testimonial_items" id="test_item_5">
+                            <img src="slider_images/5_FIDX.webp" />
+                        </div>
+            
+                        <div class="testimonial_items" id="test_item_6">
+                            <img src="slider_images/6_lionsguard.png" />
+                        </div>
+            
+                        <div class="testimonial_items" id="test_item_7">
+                            <img src="slider_images/7_facebook-1.webp" />
+                        </div>
+            
+                        <div class="testimonial_items" id="test_item_8">
+                            <img src="slider_images/8_fbi-2.webp" />
+                        </div>
+    
+                        <div class="testimonial_items" id="test_item_9">
+                            <img src="slider_images/9_hp-1.webp" />
+                        </div>
+    
+                        <div class="testimonial_items" id="test_item_10">
+                            <img src="slider_images/10_microsoft-1.webp" />
+                        </div>
+    
+                        <div class="testimonial_items" id="test_item_11">
+                            <img src="slider_images/11_new-thiel-logo-color.png" />
+                        </div>
+    
+                        <div class="testimonial_items" id="test_item_12">
+                            <img src="slider_images/12_PCIC-Logo-2-lines-1.png" />
+                        </div>
+    
+                        <div class="testimonial_items" id="test_item_13">
+                            <img src="slider_images/13_Berkerly.jpg" />
+                        </div>
+    
+                        <div class="testimonial_items" id="test_item_14">
+                            <img src="slider_images/14_us-air-force-2.webp" />
+                        </div>
+    
+                        <div class="testimonial_items" id="test_item_15">
+                            <img src="slider_images/15_WFU_Univ_V_RGB.png" />
+                        </div>
+
+
+                        <div class="testimonial_items" id="test_item_1">
+                            <img src="slider_images/1_ibm-2.webp" />
+                        </div>
+            
+                        <div class="testimonial_items" id="test_item_2">
+                            <img src="slider_images/2_BehaVR-logo-1.png" />
+                        </div>
+            
+                        <div class="testimonial_items" id="test_item_3">
+                            <img src="slider_images/3_twitch-2.webp" />
+                        </div>
+            
+                        <div class="testimonial_items" id="test_item_4">
+                            <img src="slider_images/4_nvoq.png" />
+                        </div>
+            
+    
+                       
+
+
+                    </div>
+                    
+    
+    
+                </div>
+    
+            
+        
+                <div class="test_button_right" onClick="moveRight()">
+                    <img src="slider_images/right-arrow.png">
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="test_bound_bottom" style='display:none;'>
+
+                <div class="slider_control_circles" id="test_item_1_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_2_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_3_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_4_btn">
+                    
+                </div>
+
+                <div class="slider_control_circles" id="test_item_5_btn">
+
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_6_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_7_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_8_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_9_btn">
+                    
+                </div>
+
+
+                
+                <div class="slider_control_circles" id="test_item_10_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_11_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_12_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_13_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_14_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_15_btn">
+                    
+                </div>
+
+
+                
+                <div class="slider_control_circles" id="test_item_16_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_17_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_18_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_19_btn">
+                    
+                </div>
+
+                <div class="slider_control_circles" id="test_item_20_btn">
+
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_21_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_22_btn">
+                    
+                </div>
+
+                
+                <div class="slider_control_circles" id="test_item_23_btn">
+                    
+                </div>
+
+
+                
+            </div>
+
+            
+
+           
+            
+        </div>
+        <!--End of testimonial Section--><!--End of testimonial Section-->
+
+        <script src="testimonialSlider.js"></script>

@@ -1,0 +1,365 @@
+    <style>
+   
+  
+ 
+
+/*Begin Contact section *//*Begin Contact section */
+
+.contactContainer{
+    width:90%;
+    height:auto;
+    /* background:yellow; */
+    display:flex;
+    padding:80px 0px 80px 0px;
+    column-gap: 80px;
+    margin-top:-50px;
+}
+.contact_left{
+    width:50%;
+    height:auto;
+    /* background:red; */
+    position:relative;
+    top:20px;
+}
+
+
+.contact_left.active{
+
+    height:auto;
+    /* background:red; */
+    top:0px;
+}
+
+
+
+
+.contact_bond{
+    width:100%;
+    height:auto;
+    /* background:grey; */
+    margin-bottom:20px;
+
+}
+
+.contact_bond.header{
+    font-size:22px;
+    margin-bottom: 5px;
+    font-weight:600;
+    color:#096809;
+}
+
+.c_statement1{
+    font-size:20px;
+    margin-bottom:-10px;
+}
+
+.c_statement2{
+    font-size:20px;
+}
+
+.contact_bond input{
+    width:100%;
+    height:10vh;
+    outline:none;
+    border:none;
+    border-bottom:1px solid grey;
+}
+textarea,input::-webkit-input-placeholder{
+    font-size:20px;
+    color:rgb(65, 62, 62);
+    padding-left:5px;
+    outline:none;
+}
+input:focus::-webkit-input-placeholder{
+    font-size:15px;
+    color:grey;
+    transition:all 0.1s linear;
+    top:-14px;
+    position:relative;
+    
+}
+textarea,input:focus{
+    border:1px solid black;
+    font-size:25px;
+    
+}
+.contact_bond textarea{
+    width:100%;
+    height:24vh;
+}
+
+.contact_bond button{
+    width:100%;
+    height:60px;
+}
+
+
+
+
+
+.contact_right{
+ 
+    height:auto;
+    /* background:rgb(119, 247, 0); */
+    position:relative;
+    bottom:-40px;
+}
+
+
+.contact_right.active{
+ 
+    height:auto;
+    /* background:rgb(119, 247, 0); */
+    bottom:0px;
+}
+
+.cr_header1{
+    margin-top:60px;
+    font-size:23px;
+    margin-bottom:10px;
+    font-weight:500;
+
+}
+.cr_header2{
+    line-height:35px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+}
+
+.cr_tech_head{
+    font-size:22px;
+    font-weight:550;
+    margin-top:30px;
+    color:#096809;
+}
+
+.cr_tech_hours{
+    margin-top:30px;
+}
+
+.cr_hours{
+    font-size:22px;
+    font-weight: 500;
+    margin-bottom:20px;
+    
+   
+}
+.cr_timing{
+    font-size:1.2em;
+    color:grey;
+    line-height:1.8em;
+    display: flex;
+}
+
+.cr_days{
+    width:50px;
+}
+
+
+.cr_timing.active{
+    font-size:20px;
+    font-weight: bold;
+    color:black;
+}
+
+
+
+.sendReq{
+    font-size:20px;
+    letter-spacing:0.5px;
+    cursor:pointer;
+    background:#0b56b8;
+    
+    border:none;
+    color:white;
+}
+
+.sendReq:hover{
+    background:#106eea;
+}
+
+#processing {
+    display:none;
+}
+#processing img{
+    width:50px;
+}
+
+
+
+
+@media screen and (max-width:900px){
+    .contactContainer{
+        flex-direction: column;
+    }
+
+    .contact_left{
+        width:100%;
+    }
+
+    .contact_right{
+        width:100%;
+    }
+
+    .cr_header2{
+        width:80%;
+        line-height:25px;
+    }
+}
+
+
+
+
+@media screen and (max-width:600px){
+
+.contact_bond.header{
+    font-size:25px;
+}
+
+.cr_header1{
+    font-size:18px;
+}
+
+.cr_header2{
+    font-size:16px;
+}
+
+.c_statement1{
+    margin-bottom:15px;
+    font-size:16px;
+}
+
+.c_statement2{
+    font-size:16px;
+}
+
+.cr_header2,.cr_days{
+    font-size:17px;
+}
+
+.cr_tech_head, .cr_hours{
+    font-size:18px;
+}
+
+.contact_bond textarea{
+    width:98%;
+
+}
+
+#processing img{
+    width:40px;
+}
+
+.cr_tech_hours{
+    font-size:15px;
+    font-weight:500px;
+}
+}
+
+
+@media screen and (max-width:425px){
+.cr_header2{
+    font-size:14px;
+    font-weight:500px;
+}
+
+.cr_tech_hours{
+    font-size:14px;
+    font-weight:500px;
+}
+
+
+.cr_timing.active{
+    font-size:16px;
+
+}
+}
+
+
+
+
+
+/*End Contact section *//*End Contact section */
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>    
+    
+    
+    
+    
+    
+    <!--Beginning of contact Section--><!--Beginning of contact Section-->
+
+
+
+
+    <div class="contactContainer" onmouseenter = 'hideContent()' id="contact">
+
+        <div class="contact_left">
+
+            <div class="contact_bond header">
+                Contact Us
+            </div>
+            <div class="contact_bond">
+               <p class="c_statement1" >See How We Can Secure Your Assets</p> 
+               <p class="c_statement2" >Drop us a line!</p>
+            </div>
+            
+            <div class="contact_bond" >
+                <input type="text" id = "myText" class="names_dre" placeholder="Name*">
+           
+            </div>
+            <div class="contact_bond">
+                <input type="email" id='email' placeholder="Email*">
+                
+                
+            </div>
+            <div class="contact_bond" id="text_area">
+                <textarea placeholder="Message" id="message" ></textarea>
+            </div>
+            <div class="contact_bond">
+                <button type="button" class="sendReq" id='inquiry' onClick="sendRequest()"> <span id='main_send'> Send</span> <span id='processing'> <img src="icons/spinner5.png"/> </span></button>
+
+                
+            </div>
+            
+        
+        </div>
+
+        <div class="contact_right">
+            
+            <div class="cr_header1">Better yet, see us in person!</div>
+            <div class="cr_header2">We love our customers, so feel free to visit 
+                during normal business hours.
+            </div>
+            <div class="cr_tech_head">
+                Secure Tech Solutions
+            </div>
+            <div class="cr_tech_hours">
+                <div class="cr_hours">Hours</div>
+
+                <div class='cr_timing' id="Mon"><div class='cr_days'>Mon</div> <div>09:00 am - 05:00 pm</div></div>
+                <div class='cr_timing' id="Tue"><div class='cr_days'>Tue</div> 09:00 am - 05:00 pm</div>
+                <div class='cr_timing' id="Wed"><div class='cr_days'>Wed</div> 09:00 am - 05:00 pm</div>
+                <div class='cr_timing' id="Thur"><div class='cr_days'>Thur</div> 09:00 am - 05:00 pm</div>
+                <div class='cr_timing' id="Fri"><div class='cr_days'>Fri</div> 09:00 am - 05:00 pm</div>
+                <div class='cr_timing' id="Sat"><div class='cr_days'>Sat</div> Closed</div>
+                <div class='cr_timing' id="Sun"><div class='cr_days'>Sun</div> Closed</div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="contactInformation.js"></script>
+        <!--End of contact Section--><!--End of contact Section-->

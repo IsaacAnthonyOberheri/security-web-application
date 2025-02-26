@@ -1,0 +1,48 @@
+RewriteEngine On
+ RewriteRule ^services/external_penetration services/external_penetration.php [L,QSA]
+ RewriteRule ^services/internal_penetration services/internal_penetration.php [L,QSA]
+ RewriteRule ^services/vulnerability_scanning services/vulnerability_scanning.php [L,QSA]
+ RewriteRule ^services/web_application_penetration_testing services/web_application_penetration_testing.php [L,QSA]
+ RewriteRule ^services/wireless_penetration_testing services/wireless_penetration_testing.php [L,QSA]
+ RewriteRule ^services/active_directory services/active_directory.php [L,QSA]
+ RewriteRule ^services/end_point_detection services/end_point_detection.php [L,QSA]
+ RewriteRule ^services/data_protection_&_response services/data_protection_&_response.php [L,QSA]
+ RewriteRule ^services/network_security services/network_security.php [L,QSA]
+ RewriteRule ^services/vulnerability_management services/vulnerability_management.php [L,QSA]
+
+ RewriteRule ^services/cloud_security_assessment services/cloud_security_assessment.php [L,QSA]
+ RewriteRule ^services/malware_assessment services/malware_assessment.php [L,QSA]
+ RewriteRule ^services/network_configuration_assessment services/network_configuration_assessment.php [L,QSA]
+ RewriteRule ^services/password_audit services/password_audit.php [L,QSA]
+
+ RewriteRule ^services/pci_dss_qsa services/pci_dss_qsa.php [L,QSA]
+ RewriteRule ^services/cloud_computing services/cloud_computing.php [L,QSA]
+ RewriteRule ^services/tailored_consulting services/tailored_consulting.php [L,QSA]
+
+ RewriteRule ^services/offense_penetration_testing services/offense_penetration_testing.php [L,QSA]
+
+
+RewriteRule ^store/shop store/shop.php [L,QSA]
+
+
+
+RewriteRule ^store/items store/items.php [L,QSA]
+
+RewriteRule ^store/spy_watch store/spy_watch.php [L,QSA]
+RewriteRule ^store/access_manage_box store/access_manage_box.php [L,QSA]
+RewriteRule ^store/network_camera store/network_camera.php [L,QSA]
+RewriteRule ^store/end_point_box store/end_point_box.php [L,QSA]
+RewriteRule ^store/data_managed_box store/data_managed_box.php [L,QSA]
+RewriteRule ^store/accessed_diamond store/accessed_diamond.php [L,QSA]
+RewriteRule ^store/new_data_block store/new_data_block.php [L,QSA]
+
+
+
+
+# RewriteRule ^privacy_policy privacy_policy.php [L,QSA]
+RewriteRule ^store/hello store/hello.php [L,QSA]
+RewriteRule ^store/acess_beard store/acess_beard.php [L,QSA]
+RewriteRule ^store/going_intowh store/going_intowh.php [L,QSA]
+RewriteRule ^store/hty store/hty.php [L,QSA]
+RewriteRule ^store/checking_product store/checking_product.php [L,QSA]
+RewriteRule ^store/fghjm,_ghn store/fghjm,_ghn.php [L,QSA]

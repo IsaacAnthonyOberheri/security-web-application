@@ -1,0 +1,487 @@
+@media screen and (min-width:1600px){
+
+    .blurr_image{
+        width:84.6% !important;
+    }
+
+    .testimonial_items{
+        margin-left:-18px;
+    }
+
+
+
+    .content_methodology_bond{
+        padding:20px 0px 120px 0px !important;
+       
+    }
+
+
+
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width:99.4%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:Open Sans, Arial, sans-serif;
+  
+}
+
+@media screen and (max-width:900px){
+    body{
+        width:97% !important;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    body{
+        width:94% !important;
+    }
+}
+
+
+
+.content_bound{
+    height:auto;
+    margin-top:75px;
+    padding:1px 0px 50px 0px;
+    /* background:red; */
+    width:90%;
+}
+
+
+/*Beginning of content_topic_bond section *//*Beginning of content_topic_bond section */
+
+.content_topic_bond{
+    width:100%;
+    height: 30vh;
+    /* background:yellow; */
+    padding:2.5vh 0px 2.5vh 0px;
+    background-image: url('images/PCIDSS.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.topic_text{
+    position:relative;
+    font-size:48px;
+    color:white;
+    font-weight:bold;
+    text-align: center;
+}
+.blurr_image{
+    width:89.5%;
+    height:35vh;
+    background-color: rgba(1, 7, 48, 0.9);
+    position:absolute;
+}
+
+@media screen and (max-width:850px){
+    .topic_text{
+        font-size:2.4em;
+    }
+}
+
+
+@media screen and (max-width:550px){
+    .topic_text{
+        font-size:1.8em;
+    }
+}
+
+
+@media screen and (max-width:410px){
+    .topic_text{
+        font-size:1.5em;
+    }
+}
+
+
+/*End of content_topic_bond section *//*End of content_topic_bond section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Beginning of content_description_bond section *//*Beginning of content_description_bond section */
+
+.content_description_bond{
+    width:100%;
+    height:auto;
+    /* background:green; */
+    padding:40px 0px 40px 0px;
+    display:flex;
+    justify-content: center;
+}
+
+.description_left{
+    width:45%;
+    height:auto;
+    /* background:blue; */
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.description_left img{
+    width:20vw;
+    height:40vh;
+}
+
+.description_right{
+    width:55%;
+    height:auto;
+    /* background:rgb(237, 87, 18); */
+}
+
+.desc_exp{
+    color:rgb(68, 68, 68);
+    line-height: 29px;
+    font-size:17px;
+    width:93%;
+    
+}
+
+.desc_ben{
+    color:rgb(68, 68, 68);
+    line-height: 29px;
+    font-size:17px;
+    width:88%;
+}
+
+
+
+@media screen and (max-width:900px){
+    .content_description_bond{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .description_left{
+        width:100%;
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+
+    .description_right{
+        width:100%;
+    }
+
+
+    .description_left img{
+        width:30vw;
+        height:42vh;
+    }
+
+    .desc_exp{
+        width:98%;
+    }
+
+    .desc_ben{
+        width:92%;
+    }
+    
+}
+
+
+@media screen and (max-width:600px){
+
+    .description_left img{
+        width:250px;
+        height:250px;
+    }
+}
+
+
+
+@media screen and (max-width:450px){
+
+    .description_left img{
+        width:220px;
+        height:220px;
+    }
+}
+
+/*End of content_description_bond section *//*End of content_description_bond section */
+
+
+
+
+
+
+
+/* Beginning of Other content Bond *//* Beginning of Other content Bond */
+.other_content_bond{
+    width:90%;
+    height:auto;
+    padding:20px 0px 40px 0px;
+    /* background-color: blue; */
+    left:9%;
+    position: relative;
+}
+
+.others_services_title{
+    width:80%;
+    padding-left:0px;
+    font-size:35px;
+    margin-bottom:20px;
+    font-weight: bold;
+
+}
+
+.others_services_content{
+    width:100%;
+    height:auto;
+    padding:10px 0px 10px 0px;
+    display:flex;
+   
+}
+
+.others_image{
+    width:50px;
+    height:30px;
+    /* background-color: purple; */
+}
+
+.others_image img{
+    width:30px;
+    height:30px;
+}
+
+.others_text{
+    width:70%;
+    height:30px;
+    /* background-color: yellow; */
+    display:flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width:550px){
+    .others_services_title{
+        font-size:25px;
+    }
+}
+
+
+/* End of Other content Bond *//* End of Other content Bond */
+
+
+
+
+
+
+
+
+
+
+
+/*Beginning of content_methodology_bond section *//*Beginning of content_methodology_bond section */
+
+
+.content_methodology_bond{
+    width:100%;
+    height:auto;
+    /* background-color: blue; */
+    padding:10px 0px 60px 0px;
+    display:flex;
+}
+
+.method_left{
+    width:45%;
+    height:auto;
+    /* background:rgb(255, 239, 8); */
+    display:flex;
+    align-items:flex-end;
+    flex-direction: column;
+    padding-top:30px;
+    color:rgb(0, 0, 0);
+}
+
+.meth_head{
+    
+    font-size:33px;
+    font-weight: bold;
+    width:80%;
+    margin-bottom:20px;
+
+}
+
+.meth_cont{
+    width:80%;
+    line-height: 25px;
+    font-size:17px;
+
+}
+
+.method_right{
+    width:55%;
+    height:auto;
+    /* background:blue; */
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    left:40%;
+    margin-top: 20px;
+}
+
+.meth_icon_image img{
+    width:300px;
+    height: 300px;
+}
+
+
+
+@media screen and (max-width:900px){
+    .content_methodology_bond{
+        flex-direction: column;
+        row-gap: 0px;
+    }
+
+    .method_left{
+        width:100%;
+        /* background:red; */
+        padding-bottom: 40px;
+        align-items: center;
+    }
+
+
+    
+    .method_right{
+        width:100%;
+        position:relative !important;
+        /* background-color: blue; */
+        justify-content: center;
+        align-items: center;
+        left:0%;
+    }
+
+  
+
+
+}
+
+
+
+@media screen and (max-width:500px){
+.meth_cont{
+    width:85%;
+    font-size:14px;
+}
+
+.meth_head{
+    width:85%;
+    font-size:25px;
+    
+}
+
+.meth_icon_image img{
+    width:250px;
+    height: 250px;
+}
+}
+
+
+@media screen and (max-width:400px){
+
+    .meth_icon_image img{
+        width:220px;
+        height: 220px;
+    }
+    .meth_cont{width:95%;}
+    .meth_head{width:95%;}
+}
+
+
+/*End of content_methodology_bond section *//*Beginning of content_methodology_bond section */
+
+
+
+
+
+
+
+
+
+
+
+
+/*Beginning of testimonial_bond section *//*Beginning of testimonial_bond section */
+
+
+.testimonial_bond{
+    width:100%;
+    height:auto;
+    /* background:purple; */
+    padding:10px 0px 10px 0px;
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+   
+
+}
+
+
+/*End of  testimonial_bond section *//*End of testimonial_bond section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact_bond{
+    width:100%;
+    height:auto;
+    /* background:blue; */
+    padding:10px 0px 10px 0px;
+}

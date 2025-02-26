@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<div class="">Click on the values below </div><br><br>
+
+
+<div class="opt_1" id= '1'  dataa='1' >first step</div>
+<br>
+
+<div class="opt_1"  id= '3' data="2" >second step</div>
+
+
+
+<script>
+
+    var ads = document.querySelector('.opt_1');
+
+    var aded = document.querySelectorAll('.opt_1');
+    var length = aded.length;
+
+    //console.log(length);
+
+    for(i=0; i < length; i++){
+        //console.log(aded[i].innerHTML);
+        aded[i].addEventListener('click', myFunc);
+    }
+
+    function myFunc(){
+        var inner_value = document.getElementById(this.id).innerHTML;
+        console.log(inner_value);
+        alert(inner_value);
+    }
+
+
+
+
+ 
+//     aded.forEach((c,i)=>{
+
+
+//         function myFucn(){
+// console.log(thid.id);
+
+// };
+
+// });
+        
+
+
+
+</script>
+
+
+</html>
+

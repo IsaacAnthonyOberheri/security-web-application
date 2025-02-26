@@ -1,0 +1,275 @@
+/*Beginning of Menu/Header section *//*Beginning of Menu/Header section */
+
+
+@media screen and (min-width:1600px){
+    .headerContainer, .content_bound{
+        width: 85% !important;
+    }
+
+}
+
+.headerContainer{
+    width: 90%;
+    height: auto;
+    /* background:green; */
+    display:flex;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: white;
+  
+   
+    
+    
+}
+.logo_section{
+    width:30%;
+    height:78px;
+    /* background:yellow; */
+    position:relative;
+    z-index:2;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo_section img{
+    width:200px;
+      
+}
+
+.menu_button_left{
+    width:20px !important;
+    display:none; 
+    
+}
+.menu_section{
+    width:70%;
+    height:auto;
+    /* background:grey; */
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 30px;
+    font-size:20px;
+    font-weight: 500;
+    padding-right:30px;
+}
+
+.menu_lists.active{
+    color:blue;
+}
+.service_lists.sdr{
+    display:flex;
+    column-gap:8px;
+    cursor:pointer;
+}
+.service_lists_content{
+    width:auto;
+    height: auto;
+    position:absolute;
+    padding:0px 15px 10px 15px;
+    margin-top:30px;
+    font-weight:100;
+    color:white;
+    display:none;
+}
+.service_order_br{
+    display:flex;
+    position:absolute;  
+    width:auto; 
+    
+
+}
+.service_branches{
+    width:auto;
+    height:auto;
+    /* background:purple; */
+    display:flex;
+    
+    padding:0px 15px 20px 15px;
+    flex-direction: column;
+   
+    
+   
+}
+.sr_list{
+    display:flex;
+    column-gap: 0px;
+    
+
+   
+}
+
+.list_button{
+    width:170px;
+    height:auto;
+    background:rgb(245, 246, 243);
+    display:flex;
+    padding:10px 20px 10px 20px;
+    line-height: 25px;
+    justify-content: space-between;
+    color:black;
+    border-bottom:1px solid rgb(230, 227, 227);
+    
+}
+
+#list_button{
+    cursor:pointer;
+}
+
+.list_title{
+    width:150px;
+    font-size:20px;
+}
+.list_title_icon img{
+    width:13px;
+}
+.dr_icon img{
+    width:13px;
+}
+.service_branches_lists{
+    width:190px;
+    height:280px;
+    background:rgb(245, 246, 243);
+    padding:20px 20px 0px 20px;
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+    display:none;
+    
+    
+    
+    
+    
+}
+
+.service_branches_lists.active{
+    width:190px;
+    height:auto;
+    background:rgb(245, 246, 243);
+    padding:20px 10px 10px 10px;
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-left:210px;
+    position:absolute;
+    color:black
+    
+    
+}
+
+
+
+.service_branches_lists_active{
+    width:190px;
+    height:auto;
+    background:white;
+    padding:20px 10px 10px 10px;
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-left:210px;
+    position:absolute;
+    color:black
+    
+    
+}
+
+
+
+.service_branches_all{
+    border-bottom:1px solid rgb(230, 227, 227);
+    padding:0px 0px 7px 0px;
+}
+
+.service_branches_all a{
+    text-decoration: none;
+    color:black
+}
+.list_title a{
+    text-decoration:none;
+    color:black;
+}
+
+.service_branches_all a:hover{
+    color:rgb(80, 79, 79);
+}
+.list_title a:hover{
+    color:rgb(80, 79, 79);
+}
+
+
+@media screen and (max-width:1000px){
+    .headerContainer{
+        flex-direction: column;
+    }
+    .logo_section{
+        width:100%;
+        /* background-color: red; */
+    }
+    .menu_button_left{
+        display:flex;
+        padding-right:20px;
+    }
+    .menu_section{
+        flex-direction:column;
+        /* background-color: yellow; */
+        width:100%;
+        
+        align-items:flex-start;
+        text-align:left;
+        height:0px;
+        row-gap:20px;
+        padding-left:10px;
+        padding-top:0px;
+        
+    }
+
+    .logo_section{
+        background:rgb(255, 255, 255);
+    }
+
+    .menu_section_active{
+        height:auto !important;
+        padding:20px 0px 20px 10px;
+    }
+
+ 
+}
+
+
+@media screen and (max-width:500px){
+    .sr_list{
+        margin-left:-30px;
+        margin-top:-10px;
+        font-size:16px;
+    }
+
+    .list_title{
+        font-size:16px;
+    }
+
+    .list_button{
+        /* background:red; */
+        width:60%;
+    }
+
+    .service_branches_lists{
+        /* background:red; */
+        margin-left:78%;
+        width:60%;
+    }
+
+    #auditingnew{
+        margin-top:-60px;
+    }
+    #defense_pennew{
+        margin-top:-30px;
+    }
+}
+
+/*End of Menu/Header section *//*End of Menu/Header section */
+

@@ -1,0 +1,553 @@
+@media screen and (min-width:1600px){
+    .body_receipt_container{
+        width: 900px !important;
+
+    }
+}
+
+body{
+    background-image:linear-gradient(rgb(238, 239, 248),rgb(247, 247, 247));
+
+}
+.header_bond{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    /* background-color: red; */
+    margin-bottom:80px;
+   
+}
+
+
+.body_container{
+    width:100%;
+    height:auto;
+    background-image:linear-gradient(rgb(238, 239, 248),rgb(247, 247, 247));
+    display: flex;
+    justify-content: center;
+    padding:20px 0px 20px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.body_receipt_container{
+    width: 75%;
+    height:auto;
+    background:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:35px 0px 30px 0px;
+
+}
+
+.contained_center{
+    width:90%;
+    height:auto;
+    /* background:rgb(255, 255, 255); */
+}
+
+.header_rec{
+    width:100%;
+    display:flex;
+    height:50px;
+    align-items: center;
+    /* background:blue; */
+    margin-bottom:50px;
+}
+
+.header_rec_left{
+    width:70%;
+    height:auto;
+    font-size:40px;
+}
+
+.header_rec_right{
+    width:30%;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.header_rec_right img{
+    width:150px; 
+   
+}
+
+
+
+
+
+
+.invoice_numb{
+    display: flex;
+    width:100%;
+    height:auto;
+    /* background:green; */
+    padding:0px 0px 20px 0px;
+
+}
+
+.invoice_numb_left{
+    /* background:white; */
+    height:auto;
+    width:45%;
+}
+
+.company_name{
+    font-size:26px;
+    font-weight: bold;
+}
+
+.company_phone{
+    margin-top:5px;
+    font-size:20px;
+}
+
+.company_email{
+    margin-top:3px;
+    font-size:20px;
+}
+
+
+
+
+.invoice_numb_right{
+    /* background:rgb(235, 185, 185); */
+    height:auto;
+    width:55%;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.invoice_numb_right_left{
+    width:80%;
+    /* background:brown; */
+    height:auto;
+}
+
+.bill_to{
+    font-size:22px;
+    font-weight: bold;
+}
+
+.bill_to_name{
+    font-size:19px;
+    margin-top:5px;
+}
+
+.bill_to_address{
+    margin-top:3px;
+    line-height: 20px;
+}
+
+
+.payment_desc{
+    font-size:20px;
+    
+}
+
+
+
+
+
+.details_bound{
+    height: auto;
+    /* background:rgb(56, 56, 19); */
+    width:100%;
+    margin-top:30px;
+}
+
+.details_bound_top{
+    height:auto;
+    width: 100%;
+    font-size: 18px;
+    
+}
+
+.d_b_t_header{
+    height:auto; 
+    /* background:red; */
+    display:flex;
+    padding:7px 0px 1px 0px;
+    border-bottom:1.5px solid black;
+    margin-top:50px;
+    font-weight: bold;
+}
+
+.d_b_t_content{
+    height:auto;
+    /* background:green; */
+    display:flex;
+    padding:5px 0px 5px 0px;
+    border-top:1px solid grey;
+    
+}
+
+.d_b_t_description{
+    width:45%;
+    /* background:grey; */
+    height:auto;
+    padding:7px 0px 7px 0px;
+    font-weight:600;
+    
+}
+
+.d_b_t_quantity{
+    width:20%;
+    height:auto;
+    /* background:yellow; */
+    padding:7px 0px 7px 0px;
+    font-weight:600;
+    
+}
+
+.d_b_t_unit_price{
+    width:20%;
+    height:auto;
+    /* background:rgb(64, 64, 41); */
+    padding:7px 0px 7px 0px;
+    font-weight:600;
+}
+
+
+
+.d_b_t_amount{
+    width:20%;
+    height:auto;
+    /* background:rgb(111, 111, 60); */
+    padding:7px 0px 7px 0px;
+    display:flex;
+    justify-content: flex-end;
+    font-weight:600;
+}
+
+
+
+
+
+
+
+.d_b_t_description_loop{
+    width:45%;
+    /* background:grey; */
+    height:auto;
+    padding:7px 0px 7px 0px;
+    font-weight:400;
+    
+}
+
+.d_b_t_quantity_loop{
+    width:20%;
+    height:auto;
+    /* background:yellow; */
+    padding:7px 0px 7px 0px;
+    font-weight:400;
+    
+}
+
+.d_b_t_unit_price_loop{
+    width:20%;
+    height:auto;
+    /* background:rgb(64, 64, 41); */
+    padding:7px 0px 7px 0px;
+    font-weight:400;
+}
+
+
+
+.d_b_t_amount_loop{
+    width:20%;
+    height:auto;
+    /* background:rgb(111, 111, 60); */
+    padding:7px 0px 7px 0px;
+    display:flex;
+    justify-content: flex-end;
+    font-weight:400;
+}
+
+
+
+
+
+
+
+
+.details_bound_bottom{
+    height:auto;
+    width: 100%;
+    /* background:brown; */
+    display: flex;
+    margin-top:30px;
+}
+
+.d_b_b_left{
+    width:43%;
+    /* background: green; */
+}
+
+.d_b_b_right{
+    width:57%;
+    /* background:rgb(233, 148, 148); */
+}
+
+.subtotal_bond{
+    height:auto;
+   
+    width:100%;
+    margin-bottom:5px;
+    display:flex;
+    padding:8px 0px 8px 0px;
+    border-top:1px solid grey;
+}
+
+.total_bond{
+    height:auto;
+   
+    width:100%;
+    margin-bottom:5px;
+    padding:8px 0px 8px 0px;
+    display:flex;
+    border-top:1px solid grey;
+}
+
+
+.amount_due_bond{
+    height:auto;
+   
+    width:100%;
+    margin-bottom:5px;
+    padding:8px 0px 8px 0px;
+    display:flex;
+    border-top:2px solid grey;
+    border-bottom:2px solid grey;
+}
+
+.download_receipt_bond{
+    height:auto;
+   
+    width:100%;
+    margin-bottom:5px;
+    padding:8px 0px 8px 0px;
+    display:flex;
+    justify-content: flex-end;
+    margin-top:20px;
+}
+
+.download_rec{
+    color:blue;
+    font-size:17px;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.download_rec:hover{
+    color:rgb(81, 81, 231);
+}
+
+
+.sbt_text{
+    width:70%;
+    height:auto;
+    /* background:blue; */
+    font-size:18px;
+    font-weight: 550;
+}
+
+.sbt_bound{
+    width:30%;
+    height:auto;
+    /* background:brown; */
+    display:flex;
+    justify-content: flex-end;
+    font-size:18px;
+    font-weight: 550;
+}
+
+
+#amount_due, #amount_paid{
+    font-weight:bold;
+    font-size:22px;
+}
+.receipt_last_instruction{
+    width:100%;
+    height:50px;
+    background:rgb(84, 1, 144);
+    display:flex;
+    align-items: center;
+    font-size:18px;
+    color:white;
+    margin-top:30px;
+   
+}
+
+.copy_sent{
+    margin-left:15px;
+}
+
+#hidden_session{
+    font-size:10px;
+    opacity:0;
+}
+
+
+.anim_loading_bond{
+    position:absolute;
+    height:100vh;
+    width:100%;
+    background:rgba(35, 32, 32, 0.5);
+    z-index:5;
+   
+    justify-content: center;
+    align-items: center;
+    display:none;
+
+    
+}
+
+.left_icon img{
+    width:100px;
+}
+
+.return{
+    margin-top:15px;
+    font-size:20px;
+    font-weight: bold;
+}
+.back_to_home{
+    width:10%;
+    height:auto;
+    /* background:red; */
+}
+
+
+
+@media screen and (max-width:880px){
+    .body_receipt_container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:780px){
+    .company_name,.bill_to{
+        font-size:18px;
+    }
+
+    .company_phone,.company_email, .bill_to_name,.bill_to_address{
+        font-size:16px;
+    }
+
+    .payment_desc{
+        font-size:17px;
+    }
+
+}
+
+
+@media screen and (max-width:600px){
+    .invoice_numb{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .invoice_numb_left{
+        width:100%;
+    }
+    .invoice_numb_right{
+        width:100%;
+        flex-direction: column;
+    }
+
+    .d_b_t_header{
+        font-size:16px;
+    }
+
+    .bill_to_address{
+        font-size:14px;
+    }
+
+    .d_b_t_content{
+        font-size:14px;
+    }
+
+    .sbt_text,.sbt_bound{
+        font-size:16px;
+    }
+
+    #amount_due, #amount_paid{
+        font-size:18px;
+    }
+
+    .copy_sent{
+        font-size:15px;
+    }
+
+}
+
+@media screen and (max-width:570px){
+    .header_rec_left{
+        font-size:28px;
+    }
+}
+
+@media screen and (max-width:510px){
+    .details_bound{
+     
+    }
+    .contained_center{
+       
+        overflow-x:scroll;
+        /* background:red; */
+    }
+
+    .d_b_b_left{
+        display:none;
+    }
+
+    .d_b_b_right{
+        width:100%;
+    }
+
+    .d_b_t_description,.d_b_t_description_loop{
+        width:35%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .d_b_t_header{
+        font-size:14px;
+    }
+
+    .d_b_t_content{
+        font-size:13px;
+    }
+
+    .d_b_t_quantity, .d_b_t_quantity_loop{
+        width:15%;
+    }
+
+    .d_b_t_description,.d_b_t_description_loop{
+        width:40%;
+    }
+
+    .dbt_qty{
+        padding-left:5px;
+    }
+
+    .copy_sent{
+        font-size:13px;
+    }
+
+    .sbt_text, .sbt_bound{
+        font-size:15px;
+    }
+
+    #amount_due, #amount_paid{
+        font-size:17px;
+    }
+
+    .copy_sent{
+        padding-right:8px;
+    }
+
+  
+}
+

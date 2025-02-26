@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel='stylesheet' href='success.css' />
+        <meta charset='utf-8'>
+        <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+        <meta content='' name='description'>
+        <meta content='' name='keywords'> 
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js'></script>
+    </head>
+
+    <body id='body_container_receipt'>
+
+        <div class='body_container' >
+
+            <div class='body_receipt_container'>
+
+
+                <div class='contained_center'>
+
+
+                    <div class='header_rec'>
+
+                        <div class='header_rec_left'>
+                            Invoice
+
+                        </div>
+
+                        <div class='header_rec_right'>
+                            <img src='images/securetech_logo.png' />
+                        </div>
+
+                    </div>
+                    
+                    <div class='invoice_numb'>
+
+                        <div class='invoice_numb_left'>
+
+                            <div class='company_name'>
+                                Secure Tech Securities
+                            </div>
+
+                            <div class='company_phone'>
+                                +1 974-256-5647
+                            </div>
+
+
+                            <div class='company_email'>
+                                support@securetech.co
+                            </div>
+
+                        </div>
+
+
+
+                        <div class='invoice_numb_right'>
+
+                            <div class='invoice_numb_right_left'>
+
+                                <div class='bill_to'>Bill To</div>
+
+                                <div class='bill_to_name'>Jenny Rosen</div>
+
+                                <div class='bill_to_address'>
+                                    345 Oyster Point Boulevard South San Francisco, California 94080 United States
+                                </div>
+
+                                <div class='bill_to_email'>
+                                    jenny-rosen@yahoo.com
+                                </div>
+
+                            </div>
+
+                       
+                            
+                        </div>
+    
+                    </div>
+    
+    
+                    <div class='payment_means'>
+                        <div class='payment_desc'>Online Payment</div>
+                    </div>
+    
+
+                    <div class='details_bound'>
+
+                        <div class='details_bound_top'>
+
+                            <div class='d_b_t_header'>
+
+                                <div class='d_b_t_description'>
+                                    Description
+                                </div>
+
+                                
+                                <div class='d_b_t_quantity'>
+                                    Qty
+                                </div>
+
+
+                                
+                                <div class='d_b_t_unit_price'>
+                                    Unit price
+                                </div>
+
+
+                                
+                                <div class='d_b_t_amount'>
+                                    Amount
+                                </div>
+
+                            </div>
+
+
+
+
+                            <!--start the loop-->
+
+                                <div class='d_b_t_content'>
+
+                                    <div class='d_b_t_description_loop' >
+                                        Network Cable  Network Cable
+                                    </div>
+
+                                    
+                                    <div class='d_b_t_quantity_loop'>
+                                       <div class='dbt_qty'> 2 </div> 
+                                    </div>
+
+
+                                    
+                                    <div class='d_b_t_unit_price_loop'>
+                                        $ 1400
+                                    </div>
+
+
+                                    
+                                    <div class='d_b_t_amount_loop'>
+                                        $ 2800
+                                    </div>
+
+                                </div>
+
+
+                                <div class='d_b_t_content'>
+
+                                    <div class='d_b_t_description_loop' >
+                                        Network Cable
+                                    </div>
+
+                                    
+                                    <div class='d_b_t_quantity_loop'>
+                                        <div class='dbt_qty'> 2 </div> 
+                                    </div>
+
+
+                                    
+                                    <div class='d_b_t_unit_price_loop'>
+                                        $ 1400
+                                    </div>
+
+
+                                    
+                                    <div class='d_b_t_amount_loop'>
+                                        $ 2800
+                                    </div>
+
+                                </div>
+
+                             
+                            <!--end the loop-->
+
+
+                        </div>
+
+
+
+
+
+                        <div class='details_bound_bottom'>
+
+                            <div class='d_b_b_left'>
+
+                            </div>
+
+                            <div class='d_b_b_right'>
+
+                                <div class='subtotal_bond'>
+
+                                    <div class='sbt_text'>
+                                        Subtotal
+                                    </div>
+
+                                    <div class='sbt_bound'>
+                                        $500.00
+                                    </div>
+
+                                </div>
+
+                                <div class='total_bond'>
+
+                                    <div class='sbt_text'>
+                                        Total
+                                    </div>
+
+                                    <div class='sbt_bound'>
+                                        $500.00
+                                    </div>
+
+                                </div>
+
+                                <div class='amount_due_bond'>
+
+                                    <div class='sbt_text' id='amount_due'>
+                                        Amount due
+                                    </div>
+
+                                    <div class='sbt_bound' id='amount_paid'>
+                                        $500.00
+                                    </div>
+
+                                </div>
+
+                                <div class='download_receipt_bond'>
+                                   <div class='download_rec' onClick='downloadReceipt()'> Download receipt </div> 
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+
+
+                        <div class='receipt_last_instruction'>
+                            <div class='copy_sent'>
+                                A receipt download link has been sent to your mail.
+                            </div>
+                        </div>
+    
+    
+                    </div>
+    
+
+
+
+                </div>
+
+                
+
+            </div>
+
+
+        </div>
+
+        <script>
+
+            const downloadReceipt = () =>{
+                //alert('working');
+                var body_container_receipt = document.getElementById('body_container_receipt');
+
+                html2pdf().from(body_container_receipt).save();
+            }
+        
+        </script>
+    </body>
+</html>

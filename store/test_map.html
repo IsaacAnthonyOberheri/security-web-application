@@ -1,0 +1,33 @@
+<script>
+ var kes = localStorage.map(i => console.log(i));
+ //console.log(kes[0]);
+
+</script>
+
+
+//console.log(stored_local_storage);
+const find = stored_local_storage.filter(search => search.key !== key_value);
+//console.log(find.length);
+var length_find = find.length;
+
+let empt_arr = [];
+const mapped = find.map(item => {
+    const vl = {
+        'id': item.id,
+        'description': item.description,
+        'item_name': item.item_name,
+        'price': item.price,
+        'image': item.image,
+        'key': item.key,
+        'edited_price': item.edited_price,
+        'increment': item.increment 
+    }
+    empt_arr.push(vl);
+    console.log(vl);
+    console.log(length_find);
+    // localStorage.clear();
+    // for(key = 0; key < length_find+1; key++){
+
+    //     localStorage.setItem(key, JSON.stringify(empt_arr) );
+    // }
+});
